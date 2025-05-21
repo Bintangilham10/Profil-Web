@@ -21,10 +21,10 @@ if ($op == 'delete') {
     }
 }
 ?>
-<h1>Halaman Admin Tutors</h1>
+<h1>Halaman Admin Anggota</h1>
 <p>
     <a href="tutors_input.php">
-        <input type="button" class="btn btn-primary" value="Buat Tutors Baru" />
+        <input type="button" class="btn btn-primary" value="Buat Anggota Baru" />
     </a>
 </p>
 <?php

@@ -82,10 +82,10 @@ if (isset($_POST['simpan'])) {
 
 
 ?>
-<h1>Halaman Admin Input Data Partners</h1>
+<h1>Halaman Admin Input Data Lab</h1>
 <div class="mb-3 row">
     <a href="partners.php">
-        << Kembali ke halaman admin Partners</a>
+        << Kembali ke halaman admin Laboratory</a>
 </div>
 <?php
 if ($error) {

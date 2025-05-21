@@ -21,10 +21,10 @@ if ($op == 'delete') {
     }
 }
 ?>
-<h1>Halaman Admin Partners</h1>
+<h1>Halaman Admin Laboratory</h1>
 <p>
     <a href="partners_input.php">
-        <input type="button" class="btn btn-primary" value="Buat Partners Baru" />
+        <input type="button" class="btn btn-primary" value="Buat Lab Baru" />
     </a>
 </p>
 <?php
