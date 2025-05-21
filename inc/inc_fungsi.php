@@ -81,9 +81,9 @@ function maximum_kata($isi,$maximum){
     return $isi;
 }
 
-function tutors_foto($id){
+function anggota_foto($id){
     global $koneksi;
-    $sql1   = "select * from tutors where id = '$id'";
+    $sql1   = "select * from anggota where id = '$id'";
     $q1     = mysqli_query($koneksi,$sql1);
     $r1     = mysqli_fetch_array($q1);
     $foto   = $r1['foto'];
@@ -91,18 +91,18 @@ function tutors_foto($id){
     if($foto){
         return $foto;
     }else{
-        return 'tutors_default_picture.png';
+        return 'anggota_default_picture.png';
     }
 }
 
-function buat_link_tutors($id){
+function buat_link_anggota($id){
     global $koneksi;
-    $sql1    = "select * from tutors where id = '$id'";
+    $sql1    = "select * from anggota where id = '$id'";
     $q1     = mysqli_query($koneksi,$sql1);
     $r1     = mysqli_fetch_array($q1);
     $nama  = bersihkan_judul($r1['nama']);
     // http://localhost/website-company-profile/halaman.php/8/judul
-    return url_dasar()."/tutors.php/$id/$nama";
+    return url_dasar()."/anggota.php/$id/$nama";
 }
 
 function partners_foto($id){

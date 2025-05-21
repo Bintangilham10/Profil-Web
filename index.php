@@ -21,8 +21,8 @@
     <img src="<?php echo ambil_gambar('9') ?>" />
 </section>
 
-<!-- untuk tutors -->
-<section id="tutors">
+<!-- untuk anggota -->
+<section id="anggota">
     <div class="tengah">
         <div class="kolom">
             <p class="deskripsi">Struktur Organisasi</p>
@@ -30,15 +30,15 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, optio!</p>
         </div>
 
-        <div class="tutor-list">
+        <div class="anggotas-list">
             <?php
-            $sql1       = "select * from tutors order by id asc";
+            $sql1       = "select * from anggota order by id asc";
             $q1         = mysqli_query($koneksi, $sql1);
             while ($r1 = mysqli_fetch_array($q1)) {
             ?>
-                <div class="kartu-tutor">
-                    <a href="<?php echo buat_link_tutors($r1['id']) ?>">
-                        <img src="<?php echo url_dasar() . "/gambar/" . tutors_foto($r1['id']) ?>" />
+                <div class="kartu-anggotas">
+                    <a href="<?php echo buat_link_anggota($r1['id']) ?>">
+                        <img src="<?php echo url_dasar() . "/gambar/" . anggota_foto($r1['id']) ?>" />
                         <p><?php echo $r1['nama'] ?></p>
                     </a>
                 </div>

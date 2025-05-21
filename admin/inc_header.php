@@ -47,7 +47,7 @@ include("../inc/inc_fungsi.php");
                             <a class="nav-link active" aria-current="page" href="halaman.php">Halaman</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tutors.php">Anggota</a>
+                            <a class="nav-link" href="anggota.php">Anggota</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="partners.php">Lab</a>
