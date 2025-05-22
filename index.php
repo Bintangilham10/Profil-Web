@@ -1,5 +1,5 @@
 <?php include_once("inc_header.php") ?>
-<!-- untuk home -->
+
 <section id="home">
     <img src="<?php echo ambil_gambar('8') ?>" />
     <div class="kolom">
@@ -10,7 +10,7 @@
     </div>
 </section>
 
-<!-- untuk courses -->
+
 <section id="courses">
     <div class="kolom">
         <p class="deskripsi"><?php echo ambil_kutipan('9') ?></p>
@@ -21,7 +21,7 @@
     <img src="<?php echo ambil_gambar('9') ?>" />
 </section>
 
-<!-- untuk anggota -->
+
 <section id="anggota">
     <div class="tengah">
         <div class="kolom">
@@ -51,7 +51,6 @@
     </div>
 </section>
 
-<!-- untuk partners -->
 <section id="partners">
     <div class="tengah">
         <div class="kolom">

@@ -56,9 +56,6 @@ include("../inc/inc_fungsi.php");
                             <a class="nav-link" href="info.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="members.php">Members</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="ganti_profile.php">Ganti Password</a>
                         </li>
                         <li class="nav-item">

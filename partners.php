@@ -1,8 +1,7 @@
 <?php
 include_once("inc/inc_koneksi.php");
 include_once("inc/inc_fungsi.php");
-//http://localhost/website-company-profile/halaman.php/8/tetap-sehat-tetap-semangat
-//print_r($_SERVER);
+
 $id = dapatkan_id();
 
 $sql1   = "select * from partners where id = '$id'";
