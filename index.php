@@ -27,8 +27,8 @@
         <div class="kolom">
             <p class="deskripsi">Struktur Organisasi</p>
             <h2>Anggota</h2>
+
             <p>Memperkenalkan Struktur Organisasi Keanggotaan</p>
-        </div>
 
         <div class="anggotas-list">
             <?php
