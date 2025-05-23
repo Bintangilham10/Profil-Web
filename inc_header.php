@@ -18,12 +18,12 @@ include_once("inc/inc_fungsi.php");
             <div class="menu">
                 <ul>
                     <li><a href="<?php echo url_dasar()?>#home">Home</a></li>
-                    <li><a href="<?php echo url_dasar()?>#courses">Visi-Misi</a></li>
+                    <li><a href="<?php echo url_dasar()?>#visimisi">Visi-Misi</a></li>
                     <li><a href="<?php echo url_dasar()?>#anggota">Anggota</a></li>
-                    <li><a href="<?php echo url_dasar()?>#partners">Lab</a></li>
+                    <li><a href="<?php echo url_dasar()?>#lab">Lab</a></li>
                     <li><a href="<?php echo url_dasar()?>#contact">Contact</a></li>
                     <li>
-                        <a href="admin/login.php" class="tbl-biru">Log In</a>
+                        <a href="/HMTK/admin/login.php" class="tbl-biru">Log In</a>
                     </li>
                 </ul>
             </div>

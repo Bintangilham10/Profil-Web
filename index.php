@@ -54,9 +54,9 @@
 <section id="partners">
     <div class="tengah">
         <div class="kolom">
-            <p class="deskripsi">Laboratory Kami</p>
+            <p class="deskripsi">Laboratory</p>
             <h2>Lab</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magni tempore expedita sequi. Similique rerum doloremque impedit saepe atque maxime.</p>
+            <p>Memperkenalkan Partners Laboratorium</p>
         </div>
 
         <div class="partner-list">
