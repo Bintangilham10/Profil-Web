@@ -35,15 +35,13 @@ if (isset($_POST['simpan'])) {
     if ($nama == '' or $isi == '') {
         $error     = "Silakan masukkan semua data yakni adalah data isi dan nama.";
     }
-    //Array ( [foto] => Array ( [name] => Budi Rahardjo.jpg [type] => image/jpeg [tmp_name] => C:\xampp2\tmp\php4FDD.tmp [error] => 0 [size] => 2375701 ) )
-    // print_r($_FILES);
     if($_FILES['foto']['name']){
         $foto_name = $_FILES['foto']['name'];
         $foto_file = $_FILES['foto']['tmp_name'];
 
         $detail_file = pathinfo($foto_name);
         $foto_ekstensi = $detail_file['extension'];
-        // Array ( [dirname] => . [basename] => Romi Satrio Wahono.jpg [extension] => jpg [filename] => Romi Satrio Wahono )
+
         $ekstensi_yang_diperbolehkan = array("jpg","jpeg","png","gif");
         if(!in_array($foto_ekstensi,$ekstensi_yang_diperbolehkan)){
             $error = "Ekstensi yang diperbolehkan adalah jpg, jpeg, png dan gif";
